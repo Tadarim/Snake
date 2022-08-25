@@ -1,0 +1,61 @@
+/* 重置样式 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置主页面 */
+#main{
+    width: 840px;
+    height: 540px;
+    margin: 50px auto;
+    background-color: #1D3851;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 设置按钮 */
+#buttons{
+    text-align: center;
+}
+
+#buttons button{
+    border: none;
+    outline: none;
+    outline-style: none;
+    width: 150px;
+    height: 30px;
+    background-color: #1D3851;
+    color: #fff;
+    margin: 0 10px;
+}
+
+
+/* 设置地图 */
+#map{
+    width: 810px;
+    height: 510px;
+    background-color: #fff;
+    position: relative;
+}
+
+/* 蛇 */
+#map div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #549c4c;
+    position: absolute;
+    z-index: 1;
+}
+
+#map span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    z-index: 1;
+}
